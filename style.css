@@ -63,25 +63,81 @@ header {
   padding-bottom: 60px;
   padding-right: 100px;
   margin-left: 100px;
-  background:  #FFF;
+  background: #fff;
 }
 
 .fail-title {
-  color:  #151414;
+  color: #151414;
   font-family: Work Sans;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   margin-top: 20px;
 }
-.fail-list ul{
-    margin-top: 12px;
-    list-style: none;
-    /* list-style:symbols(''); */
-    /* ekhane tik kivabe anbo? */
-    
+.fail-list ul {
+  margin-top: 12px;
+  list-style: none;
+  /* list-style:symbols(''); */
+  /* ekhane tik kivabe anbo? */
 }
 ul li:before {
-    content: '✓';
-    color: green;
-  }
+  content: "✓";
+  color: green;
+}
+.pln-title {
+  text-align: center;
+}
+.goals {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px 100px;
+}
+.motivation {
+  /* liniyer image + gradient in same picture,,,! :)  */
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("./images/watch.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  margin: 100px 150px;
+  border: none;
+  border-radius: 8px;
+}
+.motiv-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+/* button problem */
+/* .motive-button {
+  border-radius: 5px;
+
+  background-color: #fff;
+    border: none;
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 950px;
+} */
+.motive-button {
+  background-color: #fff;
+  color: #f15b22;
+  border: none;
+  
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight:500;
+  width: 160px;
+  margin-top: 5px;
+  padding-top: 15px 10px;
+}
+.motiv-tb{
+   padding: 60px;
+   max-width: 600px;
+}
