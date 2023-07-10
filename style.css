@@ -141,3 +141,36 @@ ul li:before {
    padding: 60px;
    max-width: 600px;
 }
+footer{
+    background: #151414;
+    height: 71vh;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 100px 60px  0px ;
+    justify-content: space-between;
+    /* space evenly kn hoy na? */
+}
+.col1-title{
+color: #F8F8F8;
+font-size: 30px;
+}
+.col1-p{
+    color: #FFF; 
+    margin-bottom: 18px;
+}
+.footer-col2{
+    margin-right: 100px;
+}
+.col-input{
+    margin-top: 18px;
+    padding: 15px;
+    border:none;
+    /* color:#F3F3F3 ; */
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    width: 330px;
+}
